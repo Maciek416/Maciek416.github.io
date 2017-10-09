@@ -32,7 +32,7 @@ var SineBox = React.createClass({
   getInitialState: function() {
     return {
       // How many bars we'll show
-      resolution: 50,
+      resolution: 90,
 
       // Our master animation clock used by our math functions
       time: this.props.time, 
